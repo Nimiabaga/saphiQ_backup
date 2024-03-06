@@ -1,0 +1,14 @@
+{
+  "name": "saphiq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "browser-sync start --server 'client' --files 'client/*.html' 'client/styles/*.css' 'client/scripts/*.js' --no-open",
+    "start-dev-ui": "browser-sync start --proxy 'localhost:3000' --files 'client/*.html' 'client/styles/*.css' 'client/scripts/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
